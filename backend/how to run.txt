@@ -1,0 +1,4 @@
+.\.venv\Scripts\python.exe run.py
+
+
+download ollama -> ollama pull llama3.2:3b
