@@ -1,0 +1,11 @@
+fastapi>=0.115,<1
+uvicorn>=0.34,<1
+pydantic>=2.10,<3
+httpx>=0.28,<1
+python-dotenv>=1.0,<2
+faster-whisper>=1.1,<2
+# PyAV 19 removed metadata_errors, still used by faster-whisper 1.2.x.
+av>=11,<17
+PyAudioWPatch>=0.2.12.7,<0.3; sys_platform == 'win32'
+python-docx>=1.1,<2
+reportlab>=4.2,<5
